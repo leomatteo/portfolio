@@ -1,0 +1,61 @@
+/* Define a fonte padrão */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+}
+
+/* Estiliza o cabeçalho */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Remove a marcação de lista padrão e o padding do menu de navegação */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estiliza os itens do menu de navegação */
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Estiliza os links de navegação */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Define o preenchimento interno e a aparência do conteúdo principal */
+main {
+  padding: 80px;
+}
+
+/* Estiliza o botão */
+button {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estiliza o rodapé */
+footer {
+  background-color: #000;
+  padding: 35px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
